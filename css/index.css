@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+
 }
 
 html, body {
@@ -65,7 +66,32 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+.top-nav-bar {
+    display:flex;
+    width: 100%;
+    align-items: center;
+    margin-left: 0%;
+    margin-right: 0%;
+    justify-content: space-between;
+}
+.top-flex-item {
+    margin: 0%;
+    height: 100%;
+}
+.top-flex-item a {
+    color: black;
+    text-decoration: none;
 
+}
+.jumbo-photo {
+    display: flex;
+    margin-left: 21%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+}
 .container {
     width: 800px;
     margin: 0 auto;
