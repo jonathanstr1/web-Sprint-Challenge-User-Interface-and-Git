@@ -49,7 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
-
+  /*  border: 1px solid black; */
 }
 
 html, body {
@@ -86,7 +86,7 @@ p {
 }
 .jumbo-photo {
     display: flex;
-    margin-left: 21%;
+    margin-left:20%;
     margin-top: 20px;
     margin-bottom: 20px;
     width: 60%;
@@ -176,17 +176,30 @@ footer nav a {
     
     border-width: 1px;
 }
+.about-c {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 820px; 
+
+}
 .sect-a {
     display: flex;
     flex-direction: column;
     border-bottom-style: dotted;
     margin: 10px;
     border-width: 1px;
+    flex-wrap: wrap;
+    padding-right: 10px;
+    max-width: 47%;
 
+ 
 }
-.about-c {
-    display: inline;
-    
+.sect-a img {
+    margin-bottom: 12px;
+}
+.sect-a p {
+    width: 100%;
 }
 .about-link {
     color: black;
@@ -196,6 +209,7 @@ footer nav a {
     border: 1px solid black;
     padding:10px;
     margin: 10px;
+    margin-left: 0;
     border-radius: 10px;
     width: 110px;
     text-decoration: none;
