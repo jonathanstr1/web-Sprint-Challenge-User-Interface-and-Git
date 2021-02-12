@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+  /*  border: 1px solid black; */
 }
 
 html, body {
@@ -65,7 +66,33 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+.top-nav-bar {
+    display:flex;
+    width: 100%;
 
+    align-items: center;
+    margin-left: 0%;
+    margin-right: 0%;
+    justify-content: space-between;
+}
+.top-flex-item {
+    margin: 0%;
+    height: 10%;
+}
+.top-flex-item a {
+    color: black;
+    text-decoration: none;
+
+}
+.jumbo-photo {
+    display: flex;
+    margin-left:20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -104,12 +131,42 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.box1 {
+    background: teal;
+}
+.box2 {
+    background: gold;
+}
+.box3 {
+    background: cadetblue;
+}
+.box4 {
+    background: coral;
+}
+.box5 {
+    background: crimson;
+}
+.box6 {
+    background: forestgreen;
+}
+.box7 {
+    background: darkorchid;
+}
+.box8 {
+    background: hotpink;
+}
+.box9 {
+    background: indigo;
+}
+.box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +200,50 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.about-p {
+    border-bottom-style: dotted;
+    
+    border-width: 1px;
+    margin-left: 2px;
+    margin-bottom: 10px;
+}
+.about-c {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 820px; 
+    
+}
+.sect-a {
+    display: flex;
+    flex-direction: column;
+    border-bottom-style: dotted;
+    margin: 10px;
+    border-width: 1px;
+    flex-wrap: wrap;
+    padding-right: 10px;
+    max-width: 47%;
+
+ 
+}
+.sect-a img {
+    margin-bottom: 12px;
+}
+.sect-a p {
+    width: 100%;
+}
+.about-link {
+    color: black;
+    font-size: 10pt;
+    /*margin-top: 20px;*/
+    text-align: center;
+    border: 1px solid black;
+    padding:10px;
+    margin: 10px;
+    margin-left: 0;
+    border-radius: 10px;
+    width: 110px;
+    text-decoration: none;
+
 }
